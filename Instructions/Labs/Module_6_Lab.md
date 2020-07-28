@@ -78,8 +78,7 @@ The main tasks for this exercise are as follows:
     | Server admin login | **sqladmin** |
     | Password | **Pa55w.rd1234** |
     | Location | the name of an Azure region where you can provision SQL databases |
-    | Allow Azure services to access server | ***Select the checkbox*** |
-
+ 
 1. Next to the **Compute + storage** label, select the **Configure database** link.
 
 1. On the **Configure** blade, select **Serverless**, review the corresponding hardware configuration and auto-pause delay settings, leave the **Enable auto-pause** checkbox enabled, and select **Apply**.
