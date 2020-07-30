@@ -91,7 +91,7 @@ The main tasks for this exercise are as follows:
     | Setting | Value | 
     | --- | --- |
     | Connectivity method | **Public endpoint** |    
-    | Allow Azure services and resources to access this server | **No** |
+    | Allow Azure services and resources to access this server | **Yes** |
     | Add current client IP address | **Yes** |
 
 1. Select **Next: Additional settings >**. 
