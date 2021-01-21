@@ -303,7 +303,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to list the resource group you created in this exercise:
 
    ```sh
-   az group list --query "[?starts_with(name,'az30303')]".name --output tsv
+   az group list --query "[?starts_with(name,'az30303')].name" --output tsv
    ```
 
     > **Note**: Verify that the output contains only the resource group you created in this lab. This group will be deleted in this task.
@@ -311,7 +311,7 @@ The main tasks for this exercise are as follows:
 1. From the Cloud Shell pane, run the following to delete the resource group you created in this lab
 
    ```sh
-   az group list --query "[?starts_with(name,'az30303')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
+   az group list --query "[?starts_with(name,'az30303')].name" --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
    ```
 
 1. From the Cloud Shell pane, run the following to remove the folder named **az30303a1**:
